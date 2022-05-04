@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21914" started-at="2022-05-04T03:49:43Z" finished-at="2022-05-04T03:50:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21914" started-at="2022-05-04T03:49:43Z" finished-at="2022-05-04T03:50:05Z">
+      <class name="sampletest.Screenshot">
+        <test-method status="PASS" signature="testScreenShot()[pri:0, instance:sampletest.Screenshot@96def03]" name="testScreenShot" duration-ms="10991" started-at="2022-05-04T09:19:43Z" finished-at="2022-05-04T09:19:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScreenShot -->
+        <test-method status="PASS" signature="testScreenShot2()[pri:0, instance:sampletest.Screenshot@96def03]" name="testScreenShot2" duration-ms="10905" started-at="2022-05-04T09:19:54Z" finished-at="2022-05-04T09:20:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScreenShot2 -->
+      </class> <!-- sampletest.Screenshot -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
