@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="12" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="110227" started-at="2022-05-11T03:51:04Z" finished-at="2022-05-11T03:52:54Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@769f71a9]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="110227" started-at="2022-05-11T03:51:04Z" finished-at="2022-05-11T03:52:54Z">
+      <class name="runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestRunner@769f71a9]" name="setUpClass" is-config="true" duration-ms="124" started-at="2022-05-11T09:21:04Z" finished-at="2022-05-11T09:21:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@769f71a9]" name="runScenario" duration-ms="15682" started-at="2022-05-11T09:21:04Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-11T09:21:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Testing actitime login functionality for valid user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing actitime application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@769f71a9]" name="runScenario" duration-ms="12597" started-at="2022-05-11T09:21:20Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-11T09:21:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Testing actitime login functionality for valid admin manager"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing actitime application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@769f71a9]" name="runScenario" duration-ms="10021" started-at="2022-05-11T09:21:33Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-11T09:21:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Testing actitime login functionality for invalid admin12 manager"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing actitime application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@769f71a9]" name="runScenario" duration-ms="10970" started-at="2022-05-11T09:21:43Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-11T09:21:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Testing actitime login functionality for invalid admin manager23"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing actitime application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@769f71a9]" name="runScenario" duration-ms="13583" started-at="2022-05-11T09:21:54Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-11T09:22:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search 'selenium interview questions' in Google"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Perform Google Search based on requirement"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@769f71a9]" name="runScenario" duration-ms="10355" started-at="2022-05-11T09:22:07Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-11T09:22:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search Selenium 3.0 in Google search page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Perform Google Search based on requirement"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@769f71a9]" name="runScenario" duration-ms="5902" started-at="2022-05-11T09:22:18Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-11T09:22:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search Selenium 4.0 in Google search page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Perform Google Search based on requirement"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@769f71a9]" name="runScenario" duration-ms="6597" started-at="2022-05-11T09:22:24Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-11T09:22:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Vtiger application login page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["As a end user I want to verify Vtiger application login functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@769f71a9]" name="runScenario" duration-ms="2036" started-at="2022-05-11T09:22:30Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-11T09:22:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user is able to login in the application with valid credentinal"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["As a end user I want to verify Vtiger application login functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.InvalidArgumentException">
+            <message>
+              <![CDATA[invalid argument
+  (Session info: chrome=101.0.4951.54)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-LLLGMOJ', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\Asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63980}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 830708efc143753eb02dac81349a762c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidArgumentException: invalid argument
+  (Session info: chrome=101.0.4951.54)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-LLLGMOJ', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\Asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63980}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 830708efc143753eb02dac81349a762c
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
+	at utilities.SeleniumUtility.setUp(SeleniumUtility.java:59)
+	at stepdefinitions.TestVitgerStepDefinition.user_hits_a_login_page_url(TestVitgerStepDefinition.java:25)
+	at ✽.User hits a login page url(src/test/resources/features/VtigerLogin.feature:10)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@769f71a9]" name="runScenario" duration-ms="2109" started-at="2022-05-11T09:22:32Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-11T09:22:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user is able to login in the application with invalid credentinal"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["As a end user I want to verify Vtiger application login functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.InvalidArgumentException">
+            <message>
+              <![CDATA[invalid argument
+  (Session info: chrome=101.0.4951.54)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-LLLGMOJ', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\Asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63992}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d4ecba9d0817dfe397c3ff4b38e9a998]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidArgumentException: invalid argument
+  (Session info: chrome=101.0.4951.54)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-LLLGMOJ', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\Asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63992}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d4ecba9d0817dfe397c3ff4b38e9a998
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
+	at utilities.SeleniumUtility.setUp(SeleniumUtility.java:59)
+	at stepdefinitions.TestVitgerStepDefinition.user_hits_a_login_page_url(TestVitgerStepDefinition.java:25)
+	at ✽.User hits a login page url(src/test/resources/features/VtigerLogin.feature:18)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@769f71a9]" name="runScenario" duration-ms="11966" started-at="2022-05-11T09:22:34Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-11T09:22:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user is able to login in the application with valid credentinal"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["As a end user I want to verify Vtiger application login functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@769f71a9]" name="runScenario" duration-ms="8123" started-at="2022-05-11T09:22:46Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-11T09:22:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user is able to login in the application with invalid credentinal"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["As a end user I want to verify Vtiger application login functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@769f71a9]" name="tearDownClass" is-config="true" duration-ms="72" started-at="2022-05-11T09:22:54Z" finished-at="2022-05-11T09:22:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
