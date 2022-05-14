@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="33240" started-at="2022-05-12T03:43:45Z" finished-at="2022-05-12T03:44:18Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="33240" started-at="2022-05-12T03:43:45Z" finished-at="2022-05-12T03:44:18Z">
+      <class name="testscripts.TestLoginPage">
+        <test-method status="PASS" signature="testVtigerLogin()[pri:0, instance:testscripts.TestLoginPage@f8c1ddd]" name="testVtigerLogin" duration-ms="11559" started-at="2022-05-12T09:13:59Z" finished-at="2022-05-12T09:14:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVtigerLogin -->
+      </class> <!-- testscripts.TestLoginPage -->
+      <class name="testscripts.TestLeadsPage">
+        <test-method status="PASS" signature="prerequisite()[pri:0, instance:testscripts.TestLeadsPage@7fc2413d]" name="prerequisite" is-config="true" duration-ms="13862" started-at="2022-05-12T09:13:45Z" finished-at="2022-05-12T09:13:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequisite -->
+        <test-method status="PASS" signature="testLeadCreation()[pri:0, instance:testscripts.TestLeadsPage@7fc2413d]" name="testLeadCreation" duration-ms="7804" started-at="2022-05-12T09:14:11Z" finished-at="2022-05-12T09:14:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLeadCreation -->
+      </class> <!-- testscripts.TestLeadsPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

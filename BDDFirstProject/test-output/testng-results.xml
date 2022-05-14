@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="79682" started-at="2022-05-14T14:18:27Z" finished-at="2022-05-14T14:19:47Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner@45dd4eda]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="79682" started-at="2022-05-14T14:18:27Z" finished-at="2022-05-14T14:19:47Z">
+      <class name="Runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Runner.TestRunner@45dd4eda]" name="setUpClass" is-config="true" duration-ms="242" started-at="2022-05-14T19:48:27Z" finished-at="2022-05-14T19:48:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner@45dd4eda]" name="runScenario" duration-ms="32535" started-at="2022-05-14T19:48:27Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-14T19:49:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Testing ActiTime Login functionality for valid user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing actitime apllication"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner@45dd4eda]" name="runScenario" duration-ms="46773" started-at="2022-05-14T19:49:00Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-14T19:49:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Testing ActiTime Task Creation  functionality for valid user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing actitime apllication"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Runner.TestRunner@45dd4eda]" name="tearDownClass" is-config="true" duration-ms="54" started-at="2022-05-14T19:49:46Z" finished-at="2022-05-14T19:49:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

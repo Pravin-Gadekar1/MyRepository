@@ -1,0 +1,5 @@
+testscripts\TestLeadsPage.class
+webpages\VtigerHomePage.class
+webpages\VtigerLoginPage.class
+testscripts\TestLoginPage.class
+webpages\VtigerLeadsPage.class

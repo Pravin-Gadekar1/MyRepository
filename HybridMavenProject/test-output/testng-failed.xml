@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <listeners>
+    <listener class-name="utilities.TestListener"/>
+    <listener class-name="utilities.AnnotationTransformer"/>
+    <listener class-name="utilities.ExtentReporterNG"/>
+  </listeners>
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="testscripts.TestLoginPage">
+        <methods>
+          <include name="testVtigerLogin"/>
+        </methods>
+      </class> <!-- testscripts.TestLoginPage -->
+      <class name="testscripts.TestLeadsPage">
+        <methods>
+          <include name="prerequisite"/>
+          <include name="testLeadCreation"/>
+        </methods>
+      </class> <!-- testscripts.TestLeadsPage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
